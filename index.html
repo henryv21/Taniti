@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Your dream paradise"
+    />
+    <meta property="og:title" content="Taniti" />
+    <meta property="og-description" content="Taniti" />
+    <meta property="og-type" content="website" />
+    <meta property="og-image" content="http://" />
+    <title>Taniti</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible collapsible--expanded">
+        <a class="nav__brand" href="index.html"
+          ><img class="logo" src="images/TanitiLogo.png" alt="Paradigm Pet Logo"
+        /></a>
+        <svg class="icon icon--primary nav__toggler">
+          <use href="./images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item menu-highlight"><a href="index.html">Home</a></li>
+          <li class="nav__item "><a href="hotel.html">Hotels</a></li>
+          <li class="nav__item"><a href="transportation.html">Transportation</a></li>
+          <li class="nav__item"><a href="attractions.html">Attractions</a></li>
+          <li class="nav__item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="space bgimghome block block--skewed-left">
+      <div class="container grid grid--cols-2" data-aos="fade-right">
+        <header class="block__header hero__content">
+          <h1 class="bgtext block__heading">Taniti Island</h1>
+          <p class="hero__tagline bgtext">
+            Live your dream vacation
+          </p>
+          <a href="contact.html" class="btn btn--primary btn--streched">Learn More</a>
+        </header>
+      </div>
+    </section>
+
+    <section class="block container">
+      <header class="block__header" data-aos="fade-up">
+        <h2 id="about">Taniti Island</h2>
+        <p>Island getaway you never knew you wanted</p>
+      </header>
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content1" data-aos="fade-left">
+          <h2 class="feature__heading">Hotels</h2>
+          <p>
+            We offer hotels that fit any budget, so you can choose how you want to
+            spend your vacation with us. From our Sunny Villa hotel to our luxury 
+            Hotel DeLux, you will be completely satisified with the choice you make.
+            Contact one of our travel representatives to see what specials and promotions 
+            we can offer you.<br/>
+            <a class="link-arrow" href="hotel.html">Learn More</a> <br/>
+          </p>
+        </div>
+        <picture class="grid">
+          <source
+            srcset="./images/hotel.jpg 1x, ./images/hotel.jpg 2x"
+            type="image/jpg" />
+          <source
+            srcset="./images/hotel.jpg 1x, ./images/hotel.jpg 2x"
+            type="image/jpg" />
+          <img
+            class="feature__image_index"
+            src="./images/hotel.jpg"
+            alt="A picture of a hotel room on a beach"
+        /></picture>
+      </article>
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content1" data-aos="fade-right">
+          <h2 class="feature__heading">Transportation</h2>
+          <p>
+            We want you to be able to see everything our island has to offer.
+            Take advantage of the plethora of bike rental services around the island.
+            There is not a place on the island where a bike can't take you.
+            If you prefer a less stranious activity then we recommend looking
+            into our car rental serivces. We also offer taxi and bus services. <br/>
+             
+            <a class="link-arrow" href="transportation.html">Learn More</a> <br/>
+          </p>
+        </div>
+        <picture data-aos="zoom-in-lift">
+          <source
+            srcset="images/transportation.jpg 1x, images/transportation.jpg 2x"
+            type="image/jpg" />
+          <source
+            srcset="images/transportation.jpg 1x, images/transportation.jpg 2x"
+            type="image/jpg" />
+          <img
+            class="feature__image_index"
+            src="images/transportation.jpg"
+            alt="A picture of a bus stop on a beach"
+        /></picture>
+      </article>
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content1" data-aos="fade-left">
+          <h2 class="feature__heading">Attractions</h2>
+          <p>
+            We trust that you will not get bored during your stay. Explore our beaches,
+            rainforests, and volcanoes and you will not regret the moments you can capture.
+            Merriton Landing offers many activities such as zip-lining, snorkeling, fishing tours,
+            helicopter rides and much more. <br/>
+            <a class="link-arrow" href="attractions.html">Learn More</a> <br/>
+          </p>
+        </div>
+        <picture class="grid">
+          <source
+            srcset="images/attractions.jpg 1x, images/attractions.jpg 2x"
+            type="image/webp" />
+          <source
+            srcset="images/attractions.jpg 1x, images/attractions.jpg 2x"
+            type="image/jpg" />
+          <img
+            class="feature__image_index"
+            src="images/attractions.jpg"
+            alt="A picture of a giant hand in the sand"
+        /></picture>
+      </article>
+      <article class="grid">
+        <p>We want you to visit our beautiful island.
+        Please fill out our contact form to request more information. We will
+        contact you within 24 hours to answer any and all questions you may have. 
+        All fields are required.
+      </p>
+      </article>
+    </section>
+    <div class="container1">
+      <form class="form action="action_page.php">
+        <form class="form action="action_page.php">
+          <form class="form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+    
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="email">E-mail Address</label>
+          <input type="email" id="email" name="email" placeholder="email@email.com" />
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="###-###-####" />
+
+          <label for="timezone">Time Zone</label>
+          <input type="text" id="timezone" name="timezone" placeholder="" />
+    
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+    
+          <input type="submit" value="Submit" />
+        </form>
+    </div>
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Site Map</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a class="link" href="index.html">Home</a></li>
+              <li><a class="link" href="hotel.html">Hotels</a></li>
+              <li><a class="link" href="transportation.html">Transportation</a></li>
+              <li><a class="link" href="attractions.html">Attractions</a></li>
+              <li><a class="link" href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </section>
+        </section>
+        <section class="footer__brand">
+          <img src="images/TanitiLogo.png" alt="Moshify Logo" />
+          <p class="footer__copyright">Copyright 2022 Taniti Island</p>
+        </section>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

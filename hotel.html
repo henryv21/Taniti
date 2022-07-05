@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Come stay with us at one of our many luxury hotels"
+    />
+    <meta property="og:title" content="Hotels" />
+    <meta property="og-description" content="Hotels" />
+    <meta property="og-type" content="website" />
+    <meta property="og-image" content="http://" />
+    <title>Taniti Hotels</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <nav class="nav collapsible collapsible--expanded">
+      <a class="nav__brand" href="index.html"
+        ><img class="logo" src="images/TanitiLogo.png" alt="Paradigm Pet Logo"
+      /></a>
+      <svg class="icon icon--primary nav__toggler">
+        <use href="images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="index.html">Home</a></li>
+        <li class="nav__item menu-highlight"><a href="hotel.html">Hotels</a></li>
+        <li class="nav__item"><a href="transportation.html">Transportation</a></li>
+        <li class="nav__item"><a href="attractions.html">Attractions</a></li>
+        <li class="nav__item"><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="space bgimghotel block block--skewed-left">
+    <div class="container grid grid--cols-2" data-aos="fade-right">
+      <header class="block__header hero__content">
+        <h1 class="bgtext block__heading">Hotels</h1>
+      </header>
+    </div>
+  </section>
+
+  <section class="block container">
+      <header class="block__header" data-aos="fade-up">
+        <h2 id="about">Our Hotels</h2>
+        <p>A place for every budget</p>
+      </header>
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content" data-aos="fade-left">
+          <h2 class="feature__heading">Sunny Villa</h2>
+          <p>
+            Our Sunny Villa huts are an amazing way to experience our Island.
+            You will have direct access to the beach as well as a private pool for 
+            guests. Breakfast, lunch, and dinner are all included.<br/>
+            <a class="link-arrow" href="hotel.html">Learn More</a> <br />
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+          </p>
+        </div>
+        <picture class="grid">
+          <source
+            srcset="./images/hotel.jpg 1x, ./images/hotel1.jpg 2x"
+            type="image/jpg" />
+          <source
+            srcset="./images/hotel.jpg 1x, ./images/hotel1.jpg 2x"
+            type="image/jpg" />
+          <img
+            class="feature__image_index"
+            src="./images/hotel1.jpg"
+            alt="A shack style hotel on a beach"
+        /></picture>
+      </article>
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <h2 class="feature__heading">Sunset Lodge</h2>
+          <p>
+            Looking for a rustic cabin feel on the beach? We offer that at 
+            Sunset Lodge. These 1 and 2 bedroom cabins offer a great view 
+            of the beach. You will have your own private patio and direct
+            access to the beach.<br/> <a class="link-arrow" href="hotel.html">Learn More</a> <br />
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+          </p>
+        </div>
+        <picture data-aos="zoom-in-lift">
+          <source
+            srcset="images/hotel2.jpg 1x, images/hotel2.jpg 2x"
+            type="image/jpg" />
+          <source
+            srcset="images/hotel2.jpg 1x, images/hotel2.jpg 2x"
+            type="image/jpg" />
+          <img
+            class="feature__image_index"
+            src="images/hotel2.jpg"
+            alt="A rustic style hotel on a beach"
+        /></picture>
+      </article>
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content" data-aos="fade-left">
+          <h2 class="feature__heading">Hotel DeLux</h2>
+          <p>
+            Our top tier hotel gives you the best stay at Taniti Island.
+            Every room has an amazing view of the beach and rainforest. You
+            will feel like you're the king or queen of your castle. <br/>
+            <a class="link-arrow" href="hotel.html">Learn More</a> <br />
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+          </p>
+        </div>
+        <picture class="grid">
+          <source
+            srcset="images/hotel3.jpg 1x, images/hotel3.jpg 2x"
+            type="image/webp" />
+          <source
+            srcset="images/hotel3.jpg 1x, images/hotel3.jpg 2x"
+            type="image/jpg" />
+          <img
+            class="feature__image_index"
+            src="images/hotel3.jpg"
+            alt="A luxury hotel on a beach"
+        /></picture>
+      </article>
+
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content" data-aos="fade-left">
+          <h2 class="feature__heading">Emerald Bay Inn</h2>
+          <p>
+            This hotel is perfect for a nice relaxing getaway.
+            Enjoy our complimentary breakfast. We have great events
+            in the confrence area every weekend. From salsa night to
+            karaoke, there will always be something fun to do. <br/>
+            <a class="link-arrow" href="hotel.html">Learn More</a> <br />
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+            <img class="rating" src="images/Star.png" alt="Paradigm Pet Logo"/>
+          </p>
+        </div>
+        <picture class="grid">
+          <source
+            srcset="images/hotel4.jpg 1x, images/hotel4.jpg 2x"
+            type="image/webp" />
+          <source
+            srcset="images/hotel4.jpg 1x, images/hotel4.jpg 2x"
+            type="image/jpg" />
+          <img
+            class="feature__image_index"
+            src="images/hotel4.jpg"
+            alt="A budget hotel on a beach"
+        /></picture>
+      </article>
+    </section>
+  <div class="container1">
+  </div>
+  <footer class="block block--dark footer">
+    <div class="container grid footer__sections">
+      <section class="collapsible collapsible--expanded footer__section">
+        <header class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">Site Map</h2>
+          <svg class="icon icon--white collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a class="link" href="index.html">Home</a></li>
+            <li><a class="link" href="hotel.html">Hotels</a></li>
+            <li><a class="link" href="transportation.html">Transportation</a></li>
+            <li><a class="link" href="attractions.html">Attractions</a></li>
+            <li><a class="link" href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </section>
+      </section>
+      <section class="footer__brand">
+        <img src="images/TanitiLogo.png" alt="Moshify Logo" />
+        <p class="footer__copyright">Copyright 2022 Taniti Island</p>
+      </section>
+    </div>
+  </footer>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
