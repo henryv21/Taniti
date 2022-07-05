@@ -40,7 +40,7 @@
 }
 
 .bgimghome {
-  background-image: url("/images/home.jpg");
+  background-image: url("..//images/home.jpg");
   background-repeat: no-repeat;
   background-size: 100% 220%;
   background-position: center;
@@ -58,26 +58,26 @@
 }
 
 .bgimghotel {
-  background-image: url("../images/hotel.jpg");
+  background-image: url("..//images/hotel.jpg");
   background-repeat: no-repeat;
   background-size: 100% 220%;
   background-position: center;
 }
 .bgimgtrans {
-  background-image: url("../images/transportation.jpg");
+  background-image: url("..//images/transportation.jpg");
   background-repeat: no-repeat;
   background-size: 100% 220%;
   background-position: center;
 }
 .bgimgatt {
-  background-image: url("../images/attractions.jpg");
+  background-image: url("..//images/attractions.jpg");
   background-repeat: no-repeat;
   background-size: 100% 220%;
   background-position: center;
 }
 
 .bgimgcon {
-  background-image: url("../images/contact.jpg");
+  background-image: url("..//images/contact.jpg");
   background-repeat: no-repeat;
   background-size: 100% 220%;
   background-position: center;
