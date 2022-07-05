@@ -39,13 +39,6 @@
   font-size: 6rem;
 }
 
-.bgimghome {
-  background-image: url("..//images/home.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 220%;
-  background-position: center;
-}
-
 .bgtext {
   background: var(--color-primary);
   color: #fff;
@@ -55,6 +48,13 @@
 
 .space {
   height: 40rem;
+}
+
+.bgimghome {
+  background-image: url("..//images/home.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 220%;
+  background-position: center;
 }
 
 .bgimghotel {
