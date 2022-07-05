@@ -51,7 +51,7 @@
 }
 
 .bgimghome {
-  background-image: url("..//images/home.jpg");
+  background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
   background-size: 100% 220%;
   background-position: center;
